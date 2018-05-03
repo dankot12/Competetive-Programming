@@ -37,13 +37,6 @@ int main()
 		}
 	}
 	
-	for(int i=0;i<len1+1;i++)
-	{
-		for(int j=0;j<len2+1;j++)
-			cout<<Subs[i][j]<<" ";
-		cout<<"\n";
-	}
-
 	int h_no=Subs[len1][len2],h_row=len1,h_col=len2;
 	
 	char str3[h_no];
@@ -69,8 +62,6 @@ int main()
 			else
 				h_col--;
 		}
-		cout<<h_no<<" "<<h_row<<" "<<h_col<<"\n";
-		fflush(stdout);
 	}
 	
 	cout<<"Longest Subsequence is "<<str3;
